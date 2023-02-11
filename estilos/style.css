@@ -1,0 +1,359 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'IDroid', serif;
+    src:url("idroid.otf") format("opentype");
+}
+
+:root{
+    --cor0:#84E0AB;
+    --cor1:#2FA866;
+    --cor2:#1D4D32;
+    --font-android: "IDroid", serif;
+    --padding-list: 20px 30px;
+    --margin-list:  0px 2px 1px 1px;
+}
+
+body{
+    font-family: Arial, verdana, Helvetica, sans-serif;
+    background-color: var(--cor0);
+    margin: -25px 0px 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    color: white;
+    margin: 0px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.356);
+}
+
+header>h1{
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.623);
+    padding: 20px;
+    
+    
+}
+
+header>p{
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.767);
+
+}
+
+nav>a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 8px;
+    
+}
+
+nav>a:hover{
+    background-color: var(--cor1);
+    color: var(--cor0);
+    text-decoration: underline;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.808);
+    text-align: center;
+    padding: 20px;    
+}
+
+main>h1{
+     font-family: var(--font-android);
+
+     background-color: var(--cor0);
+    padding: 5px;
+   
+}
+
+main>h2{
+    font-family: var(--font-android);
+
+    background-color: var(--cor0);
+    padding: 5px;
+    
+}
+ main > p{
+    text-indent: 28px;
+    line-height: 1.4em;
+ }
+ main>p>a{
+    color: var(--cor1);
+    text-decoration: none;
+ }
+
+main>img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    
+}
+
+.video{
+    background-color: #1D4D32;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+iframe{
+    position:absolute;
+    top: 3%;
+    left: 4%;
+    height: 93%;
+    width: 92%;
+}
+
+h3{
+    background-color: rgb(48, 204, 100);
+    margin-top: -1px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.808)
+}
+
+#att-android{
+    background-color: #C5EBD5;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -18px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.808)
+}
+
+#list-content{
+    text-align: justify;
+    text-indent: 20px;
+    margin: 10px 30px;
+    padding: 0px 70px;
+}
+
+.lista{
+    text-align: left;
+    columns: 2;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .lista{
+    columns: 1;
+    text-decoration: underline;
+    }   
+}
+
+@media screen and (max-width: 380px){
+    #list-content{
+        margin: 10px 0px;
+        padding: 0px 0px;
+    }
+    
+}
+
+.lista>#cupcake:hover{
+    background-image: url(./imagens/doces-android/cupCake.jpg); 
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#Donut:hover{
+    background-image: url(./imagens/doces-android/donuts30R.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#eclair:hover{
+    background-image: url(./imagens/doces-android/bomba.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#froyo:hover{
+    background-image: url(./imagens/doces-android/Froyo.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#gingerbread:hover{
+    background-image: url(./imagens/doces-android/biscoitGengibre.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#honeycomb:hover{
+    background-image: url(./imagens/doces-android/honeyComb.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#icecream:hover{
+    background-image: url(./imagens/doces-android/iceCreamSandwich.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#jellybean:hover{
+    background-image: url(./imagens/doces-android/jujuba.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#kitkat:hover{
+    background-image: url(./imagens/doces-android/kitkat.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#lolipop:hover{
+    background-image: url(./imagens/doces-android/pilulito.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#marshmallow:hover{
+    background-image: url(./imagens/doces-android/Marshmallow.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#nougat:hover{
+    background-image: url(./imagens/doces-android/torrone.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#oreo:hover{
+    background-image: url(./imagens/doces-android/oreo.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+.lista>#pie:hover{
+    background-image: url(./imagens/doces-android/torta.jpg);  
+    padding: var(--padding-list);
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+    font-style: oblique;
+    text-shadow: 2px 2px 3px black;
+    border: 1px solid black;
+    margin: var(--margin-list);
+    transition-duration: 0.1s;    
+}
+
+strong{
+    color: #2FA866;
+}
+
+
+footer{
+    background-color: #1D4D32;
+    color: white;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    padding: 5px;
+}
+
+footer>p{
+    font-size: small;
+    margin: 0px;
+
+}
+footer>p>strong>a{
+    color: var(--cor0);
+    text-decoration: none;
+}
+footer>p>strong>a:hover{
+    color: var(--cor1);
+    text-decoration: underline;
+    transition-duration: 0.5s;
+}
