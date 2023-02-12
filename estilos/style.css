@@ -144,6 +144,7 @@ h3{
     text-align: left;
     columns: 2;
     text-decoration: underline;
+    
 }
 
 @media screen and (max-width: 500px) {
@@ -163,6 +164,7 @@ h3{
 
 .lista>#cupcake:hover{
     background-image: url(../imagens/doces-android/cupCake.jpg); 
+    background-size: cover;
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -174,7 +176,8 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#Donut:hover{
-    background-image: url(../imagens/doces-android/donuts30R.jpg);  
+    background-image: url(../imagens/doces-android/donuts30R.jpg); 
+    background-size: cover; 
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -187,6 +190,7 @@ h3{
 }
 .lista>#eclair:hover{
     background-image: url(../imagens/doces-android/bomba.jpg);  
+    background-size: cover;
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -199,6 +203,7 @@ h3{
 }
 .lista>#froyo:hover{
     background-image: url(../imagens/doces-android/Froyo.jpg);  
+    background-size: cover;
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -210,7 +215,8 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#gingerbread:hover{
-    background-image: url(../imagens/doces-android/biscoitGengibre.jpg);  
+    background-image: url(../imagens/doces-android/biscoitGengibre.jpg); 
+    background-size: cover; 
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -223,6 +229,7 @@ h3{
 }
 .lista>#honeycomb:hover{
     background-image: url(../imagens/doces-android/honeyComb.jpg);  
+    background-size: cover;
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -235,6 +242,7 @@ h3{
 }
 .lista>#icecream:hover{
     background-image: url(../imagens/doces-android/iceCreamSandwich.jpg);  
+    background-size: cover;
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -246,7 +254,8 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#jellybean:hover{
-    background-image: url(../imagens/doces-android/jujuba.jpg);  
+    background-image: url(../imagens/doces-android/jujuba.jpg); 
+    background-size: cover; 
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -260,6 +269,7 @@ h3{
 .lista>#kitkat:hover{
     background-image: url(../imagens/doces-android/kitkat.jpg);  
     padding: var(--padding-list);
+    background-size: cover;
     font-size: larger;
     font-weight: bold;
     color:white;
@@ -272,6 +282,7 @@ h3{
 .lista>#lolipop:hover{
     background-image: url(../imagens/doces-android/pilulito.jpg);  
     padding: var(--padding-list);
+    background-size: cover;
     font-size: larger;
     font-weight: bold;
     color:white;
@@ -282,7 +293,8 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#marshmallow:hover{
-    background-image: url(../imagens/doces-android/Marshmallow.jpg);  
+    background-image: url(../imagens/doces-android/Marshmallow.jpg); 
+    background-size: cover;
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -296,6 +308,7 @@ h3{
 .lista>#nougat:hover{
     background-image: url(../imagens/doces-android/torrone.jpg);  
     padding: var(--padding-list);
+    background-size: cover;
     font-size: larger;
     font-weight: bold;
     color:white;
@@ -306,7 +319,8 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#oreo:hover{
-    background-image: url(../imagens/doces-android/oreo.jpg);  
+    background-image: url(../imagens/doces-android/oreo.jpg); 
+    background-size: cover; 
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -318,7 +332,8 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#pie:hover{
-    background-image: url(../imagens/doces-android/torta.jpg);  
+    background-image: url(../imagens/doces-android/torta.jpg); 
+    background-size: cover; 
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
