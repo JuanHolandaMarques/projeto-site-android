@@ -162,7 +162,7 @@ h3{
 }
 
 .lista>#cupcake:hover{
-    background-image: url(./imagens/doces-android/cupCake.jpg); 
+    background-image: url(../imagens/doces-android/cupCake.jpg); 
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -174,7 +174,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#Donut:hover{
-    background-image: url(./imagens/doces-android/donuts30R.jpg);  
+    background-image: url(../imagens/doces-android/donuts30R.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -186,7 +186,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#eclair:hover{
-    background-image: url(./imagens/doces-android/bomba.jpg);  
+    background-image: url(../imagens/doces-android/bomba.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -198,7 +198,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#froyo:hover{
-    background-image: url(./imagens/doces-android/Froyo.jpg);  
+    background-image: url(../imagens/doces-android/Froyo.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -210,7 +210,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#gingerbread:hover{
-    background-image: url(./imagens/doces-android/biscoitGengibre.jpg);  
+    background-image: url(../imagens/doces-android/biscoitGengibre.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -222,7 +222,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#honeycomb:hover{
-    background-image: url(./imagens/doces-android/honeyComb.jpg);  
+    background-image: url(../imagens/doces-android/honeyComb.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -234,7 +234,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#icecream:hover{
-    background-image: url(./imagens/doces-android/iceCreamSandwich.jpg);  
+    background-image: url(../imagens/doces-android/iceCreamSandwich.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -246,7 +246,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#jellybean:hover{
-    background-image: url(./imagens/doces-android/jujuba.jpg);  
+    background-image: url(../imagens/doces-android/jujuba.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -258,7 +258,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#kitkat:hover{
-    background-image: url(./imagens/doces-android/kitkat.jpg);  
+    background-image: url(../imagens/doces-android/kitkat.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -270,7 +270,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#lolipop:hover{
-    background-image: url(./imagens/doces-android/pilulito.jpg);  
+    background-image: url(../imagens/doces-android/pilulito.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -282,7 +282,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#marshmallow:hover{
-    background-image: url(./imagens/doces-android/Marshmallow.jpg);  
+    background-image: url(../imagens/doces-android/Marshmallow.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -294,7 +294,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#nougat:hover{
-    background-image: url(./imagens/doces-android/torrone.jpg);  
+    background-image: url(../imagens/doces-android/torrone.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -306,7 +306,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#oreo:hover{
-    background-image: url(./imagens/doces-android/oreo.jpg);  
+    background-image: url(../imagens/doces-android/oreo.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
@@ -318,7 +318,7 @@ h3{
     transition-duration: 0.1s;    
 }
 .lista>#pie:hover{
-    background-image: url(./imagens/doces-android/torta.jpg);  
+    background-image: url(../imagens/doces-android/torta.jpg);  
     padding: var(--padding-list);
     font-size: larger;
     font-weight: bold;
